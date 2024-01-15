@@ -1,0 +1,105 @@
+:root {
+    --background-color: #2F2E41;
+    --span-color: #00BFA6;
+    --p-color: #C2C2C2;
+}
+
+body {
+    background: var(--background-color);
+    font-family: 'JetBrains Mono', monospace;
+    margin: 0;
+    color: #FFF;
+    text-align: center;
+    
+    min-height: 100vh;
+}
+
+.page {
+
+    
+    width: 1092px;
+
+    margin: 0 auto 157px;
+    padding-top: 71px;
+
+
+}
+
+header {
+
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 101px;
+}
+
+header ul {
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+
+    font-size: 14px;
+    line-height: 28px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+main {
+
+
+    display: flex;
+    justify-content: space-between;
+}
+
+span {
+
+    color: var(--span-color);
+    font-weight: 700;
+}
+
+main h1 {
+
+    margin: 0 0 59px;
+
+    font-size: 36px;
+    line-height: 40px;
+
+}
+
+p {
+
+    width: 604px;
+
+    color: var(--p-color);
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.line {
+    height: 0px;
+    width: 568px;
+
+    margin: 0 auto 27px;
+    border: 1px solid var(--span-color);
+}
+
+footer {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+}
+#padlock{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+
+}
