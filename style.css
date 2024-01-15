@@ -10,7 +10,7 @@ body {
     margin: 0;
     color: #FFF;
     text-align: center;
-    
+
     min-height: 100vh;
 }
 
@@ -99,7 +99,8 @@ footer {
 }
 #padlock{
     position: absolute;
-    left: 20px;
-    bottom: 20px;
+    left: 0;
+    bottom: 0;
+    padding: 20px;
 
 }
